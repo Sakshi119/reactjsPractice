@@ -1,0 +1,47 @@
+.app2 {
+    padding: 20px;
+    box-shadow: 15px 15px 0px 0px black;
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+
+}
+
+.todo-app ul {
+    background: #beb4fb;
+    padding: 12px;
+}
+
+.todo-app input {
+    padding: 8px;
+    margin: 10px;
+    width: 60%;
+}
+
+.todo-app button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.todo-app ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-app li {
+    margin: 10px 0;
+}
+
+.todo-app li button {
+    margin-left: 10px;
+    background-color: white;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border:1px solid transparent;
+}
+
+.todo-app li button:hover {
+    border: 1px solid #333;
+}

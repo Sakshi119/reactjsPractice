@@ -1,0 +1,40 @@
+.weather-app {
+    width: 500px;
+    height: 500px;
+    background: mediumpurple;
+    border-radius: 50px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather-app .input-field {
+    width: 60%; 
+    padding: 10px 15px; 
+    font-size: 16px;
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    outline: none; 
+    transition: border-color 0.3s ease;
+  }
+  
+  .weather-app .input-field:focus {
+    border-color: #444;
+    box-shadow: 0 0 5px rgb(84 0 255 / 50%);
+  }
+  
+  .weather-app .input-field::placeholder {
+    color: #aaa;
+    font-style: italic; 
+  }
+  
+  .weather-app .input-field:hover {
+    border-color: #888; 
+  }
+  .weather-app .info h2,
+  .weather-app .info h1,
+  .weather-app .info h3 {
+    color: white;
+}
+

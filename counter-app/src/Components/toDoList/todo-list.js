@@ -40,11 +40,6 @@ function TodoApp(){
                         <button onClick={()=> handleDeleteTask(task.id)}>Delete</button>
                     </li>
                 ))}
-
-
-
-
-
             </ul>
 
         </div>

@@ -2,6 +2,7 @@ import './App.css';
 import Counter from './Components/counterApp/counter';
 import TodoApp from './Components/toDoList/todo-list';
 import Weatherapp from './Components/weatherApp/weather-app';
+import Calculator from './Components/calculatorApp/calculator';
 import React from 'react';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div className='weather-app'>
         <Weatherapp />
+      </div>
+      <div className='calculator'>
+        <Calculator />
       </div>
     </div>   
   );

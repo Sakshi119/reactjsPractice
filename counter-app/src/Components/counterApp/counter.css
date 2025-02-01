@@ -1,44 +1,38 @@
-
 .app {
-    padding: 20px;
-    box-shadow: 15px 15px 0px 0px black;
-    width: 50%;
-    height: 50%;
-    margin: auto;
-  }
-  
-  h1 {
-    color: #333;
-    font-size: 1.75rem;
-  }
-  
-  .counter {
-    margin-top: 20px;
-  }
-  
-  .counter h2 {
-    font-size: 20px;
-    color: #444;
-  }
-  
-  .buttons button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: transparent;
-    color: black;
-    border: 2px solid black;
-    transition: background-color 0.3s ease;
-  }
-  
-  .buttons button:hover {
-    background-color: black;
-    color: white;
-  }
-
-  button.disabled {
-    pointer-events: none;
-    opacity: 0.5;
+  padding: 20px;
+  box-shadow: 15px 15px 0px 0px black;
+  margin: auto;
 }
-  
+
+.app h1 {
+  color: #333;
+  font-size: 1.75rem;
+}
+
+.app .counter h2 {
+  font-size: 20px;
+  color: #444;
+}
+
+.app .buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  transition: background-color 0.3s ease;
+}
+.app .buttons {
+  display: block;
+}
+.app .buttons button:hover {
+  background-color: black;
+  color: white;
+}
+
+.app button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

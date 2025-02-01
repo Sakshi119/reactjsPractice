@@ -16,7 +16,7 @@ body {
     padding: 20px;
   }
   
-  .display {
+  .calculator .display {
     background: #f0f0f0;
     border-radius: 5px;
     padding: 10px;
@@ -25,15 +25,15 @@ body {
     margin-bottom: 20px;
   }
   
-  .buttons {
+  .calculator .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
   
-  .button {
+  .calculator .button {
     padding: 15px;
-    background: #007bff;
+    background: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -42,7 +42,7 @@ body {
     transition: background 0.3s;
   }
   
-  .button:hover {
-    background: #0056b3;
+  .calculator .button:hover {
+    background: #7830ff;
   }
   

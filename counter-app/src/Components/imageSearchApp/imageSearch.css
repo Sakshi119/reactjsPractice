@@ -1,0 +1,8 @@
+.image-search .image-container img{
+    width:200px;
+    height:300px;
+    object-fit: cover;
+}
+.image-container{
+    margin-top: 20px;
+}
